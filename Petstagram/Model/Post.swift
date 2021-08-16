@@ -10,5 +10,5 @@ import Foundation
 struct Post: Codable {
   var caption: String
   var createdAt: Date
-  var imageURL: URL
+  var imageUrl: URL
 }

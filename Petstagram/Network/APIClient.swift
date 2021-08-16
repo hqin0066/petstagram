@@ -17,13 +17,13 @@ struct APIClient {
   let session: URLSession
   let environment: APIEnvironment
   
-  init(session: URLSession = .shared, environment: APIEnvironment = .prod) {
+  init(session: URLSession = .shared, environment: APIEnvironment = .local81) {
     self.session = session
     self.environment = environment
   }
   
   func publisherForRequest<T: APIRequest>(_ request: T) -> AnyPublisher<T.Response, Error> {
-    let url = environment.baseURL.appendingPathComponent(request.path)
+    let url = environment.baseUrl.appendingPathComponent(request.path)
     var urlRequest = URLRequest(url: url)
     urlRequest.httpMethod = request.method.rawValue
     urlRequest.httpBody = request.body
