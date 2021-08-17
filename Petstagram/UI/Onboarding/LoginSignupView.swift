@@ -89,7 +89,7 @@ struct LoginSignupView: View {
           Spacer()
         }
         .padding([.top, .bottom], 10)
-        .background(Color.green.opacity(isComleted ? 1 : 0.2))
+        .background(Color.accentGreen.opacity(isComleted ? 1 : 0.2))
         .clipShape(Capsule())
         .alert(isPresented: $requestError) {
           Alert(title: Text(requestErrorText),
@@ -104,12 +104,12 @@ struct LoginSignupView: View {
           
           Text(authState == .signIn ? "Sign Up" : "Sign In")
             .bold()
-            .foregroundColor(.green)
+            .foregroundColor(.accentGreen)
           
           Spacer()
         }
         .padding([.top, .bottom], 10)
-        .overlay(Capsule().stroke(Color.green ,lineWidth: 2))
+        .overlay(Capsule().stroke(Color.accentGreen ,lineWidth: 2))
       }
       .padding(.horizontal, 50)
       .accentColor(.green)

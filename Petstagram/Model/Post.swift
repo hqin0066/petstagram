@@ -7,8 +7,16 @@
 
 import Foundation
 
-struct Post: Codable {
+struct Post: Codable, Identifiable {
+  var id: UUID?
   var caption: String
   var createdAt: Date
-  var imageUrl: URL
+  var createdByUser: String
+  
+  init(id: UUID? = nil, caption: String, createdAt: Date = Date(), createdByUser: String = currentUser?.id ?? "") {
+    self.id = id
+    self.caption = caption
+    self.createdAt = createdAt
+    self.createdByUser = createdByUser
+  }
 }

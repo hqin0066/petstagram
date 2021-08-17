@@ -20,7 +20,7 @@
 		A31141FD26CA22AA00EBE9FB /* AppTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141FC26CA22AA00EBE9FB /* AppTitle.swift */; };
 		A311420026CA4A6500EBE9FB /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141EA26C9FA9200EBE9FB /* JsonData.swift */; };
 		A3265E0226C9E7B80081BB6D /* PetstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E0126C9E7B80081BB6D /* PetstagramApp.swift */; };
-		A3265E0426C9E7B80081BB6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E0326C9E7B80081BB6D /* ContentView.swift */; };
+		A3265E0426C9E7B80081BB6D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E0326C9E7B80081BB6D /* MainView.swift */; };
 		A3265E0626C9E7B90081BB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3265E0526C9E7B90081BB6D /* Assets.xcassets */; };
 		A3265E0926C9E7B90081BB6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3265E0826C9E7B90081BB6D /* Preview Assets.xcassets */; };
 		A3265E1D26C9E7B90081BB6D /* PetstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E1C26C9E7B90081BB6D /* PetstagramUITests.swift */; };
@@ -28,6 +28,20 @@
 		A3265E2E26C9E7ED0081BB6D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E2D26C9E7ED0081BB6D /* Post.swift */; };
 		A3265E3126C9E8480081BB6D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E3026C9E8480081BB6D /* APIRequest.swift */; };
 		A3265E3326C9E9070081BB6D /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E3226C9E9070081BB6D /* PostRequest.swift */; };
+		A38C710A26CB5BA000C273F3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710926CB5BA000C273F3 /* Colors.swift */; };
+		A38C710E26CB5C2A00C273F3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710D26CB5C2A00C273F3 /* FeedView.swift */; };
+		A38C711026CB6AB900C273F3 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710F26CB6AB900C273F3 /* Feed.swift */; };
+		A38C711226CB742D00C273F3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711126CB742D00C273F3 /* FeedCell.swift */; };
+		A38C711426CB7FF100C273F3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711326CB7FF100C273F3 /* CommentCell.swift */; };
+		A38C711B26CB89E500C273F3 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711A26CB89E500C273F3 /* CreatePostView.swift */; };
+		A38C711D26CB8ABE00C273F3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711C26CB8ABE00C273F3 /* UserData.swift */; };
+		A38C711F26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38C711E26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard */; };
+		A38C712126CB8EFA00C273F3 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712026CB8EFA00C273F3 /* CameraPreviewView.swift */; };
+		A38C712326CB8F0A00C273F3 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712226CB8F0A00C273F3 /* TakePhotoViewController.swift */; };
+		A38C712526CB8F2F00C273F3 /* PhotoCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712426CB8F2F00C273F3 /* PhotoCaptureController.swift */; };
+		A38C712726CB8F3500C273F3 /* AddDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712626CB8F3500C273F3 /* AddDescriptionView.swift */; };
+		A38C712926CB8F4300C273F3 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712826CB8F4300C273F3 /* PostController.swift */; };
+		A38C712B26CB8FD300C273F3 /* ImageRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712A26CB8FD300C273F3 /* ImageRequests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +76,7 @@
 		A31141FC26CA22AA00EBE9FB /* AppTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitle.swift; sourceTree = "<group>"; };
 		A3265DFE26C9E7B80081BB6D /* Petstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3265E0126C9E7B80081BB6D /* PetstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramApp.swift; sourceTree = "<group>"; };
-		A3265E0326C9E7B80081BB6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3265E0326C9E7B80081BB6D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A3265E0526C9E7B90081BB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3265E0826C9E7B90081BB6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3265E0E26C9E7B90081BB6D /* PetstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +86,20 @@
 		A3265E2D26C9E7ED0081BB6D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A3265E3026C9E8480081BB6D /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		A3265E3226C9E9070081BB6D /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		A38C710926CB5BA000C273F3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A38C710D26CB5C2A00C273F3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A38C710F26CB6AB900C273F3 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		A38C711126CB742D00C273F3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		A38C711326CB7FF100C273F3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		A38C711A26CB89E500C273F3 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		A38C711C26CB8ABE00C273F3 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A38C711E26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TakePhotoStoryboard.storyboard; sourceTree = "<group>"; };
+		A38C712026CB8EFA00C273F3 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		A38C712226CB8F0A00C273F3 /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TakePhotoViewController.swift; path = "../../../../../../../../Downloads/video-insta-materials-versions-1.0/19-camera-capture/starter/Petstagram/Petstagram/UI/Post/TakePhotoViewController.swift"; sourceTree = "<group>"; };
+		A38C712426CB8F2F00C273F3 /* PhotoCaptureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureController.swift; sourceTree = "<group>"; };
+		A38C712626CB8F3500C273F3 /* AddDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDescriptionView.swift; sourceTree = "<group>"; };
+		A38C712826CB8F4300C273F3 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		A38C712A26CB8FD300C273F3 /* ImageRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +131,7 @@
 		A31141E526C9F83700EBE9FB /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				A38C712A26CB8FD300C273F3 /* ImageRequests.swift */,
 				A3265E3226C9E9070081BB6D /* PostRequest.swift */,
 				A31141F826CA1D8600EBE9FB /* UserRequests.swift */,
 			);
@@ -145,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				A31141E626C9F85000EBE9FB /* Resources */,
+				A38C710826CB5B8700C273F3 /* Helpers */,
 				A3265E2F26C9E8320081BB6D /* Model */,
 				A3265E2C26C9E7E00081BB6D /* Network */,
 				A3265E2B26C9E7D00081BB6D /* UI */,
@@ -183,9 +213,11 @@
 		A3265E2B26C9E7D00081BB6D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A3265E0326C9E7B80081BB6D /* ContentView.swift */,
-				A31141F426CA192100EBE9FB /* LoginSignupView.swift */,
-				A31141FC26CA22AA00EBE9FB /* AppTitle.swift */,
+				A3265E0326C9E7B80081BB6D /* MainView.swift */,
+				A38C711C26CB8ABE00C273F3 /* UserData.swift */,
+				A38C711526CB83A100C273F3 /* Post */,
+				A38C710C26CB5C2200C273F3 /* Feed */,
+				A38C710B26CB5C1000C273F3 /* Onboarding */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -206,8 +238,50 @@
 			children = (
 				A3265E2D26C9E7ED0081BB6D /* Post.swift */,
 				A31141F626CA1C0500EBE9FB /* UserAuthentication.swift */,
+				A38C710F26CB6AB900C273F3 /* Feed.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A38C710826CB5B8700C273F3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A38C710926CB5BA000C273F3 /* Colors.swift */,
+				A31141FC26CA22AA00EBE9FB /* AppTitle.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A38C710B26CB5C1000C273F3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A31141F426CA192100EBE9FB /* LoginSignupView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A38C710C26CB5C2200C273F3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A38C710D26CB5C2A00C273F3 /* FeedView.swift */,
+				A38C711126CB742D00C273F3 /* FeedCell.swift */,
+				A38C711326CB7FF100C273F3 /* CommentCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A38C711526CB83A100C273F3 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				A38C712826CB8F4300C273F3 /* PostController.swift */,
+				A38C712626CB8F3500C273F3 /* AddDescriptionView.swift */,
+				A38C712426CB8F2F00C273F3 /* PhotoCaptureController.swift */,
+				A38C712226CB8F0A00C273F3 /* TakePhotoViewController.swift */,
+				A38C712026CB8EFA00C273F3 /* CameraPreviewView.swift */,
+				A38C711E26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard */,
+				A38C711A26CB89E500C273F3 /* CreatePostView.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31141FB26CA223900EBE9FB /* CoolStoryregular.ttf in Resources */,
+				A38C711F26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard in Resources */,
 				A3265E0926C9E7B90081BB6D /* Preview Assets.xcassets in Resources */,
 				A3265E0626C9E7B90081BB6D /* Assets.xcassets in Resources */,
 			);
@@ -348,17 +423,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38C710E26CB5C2A00C273F3 /* FeedView.swift in Sources */,
+				A38C711026CB6AB900C273F3 /* Feed.swift in Sources */,
 				A3265E2E26C9E7ED0081BB6D /* Post.swift in Sources */,
-				A3265E0426C9E7B80081BB6D /* ContentView.swift in Sources */,
+				A3265E0426C9E7B80081BB6D /* MainView.swift in Sources */,
 				A31141F526CA192100EBE9FB /* LoginSignupView.swift in Sources */,
 				A31141FD26CA22AA00EBE9FB /* AppTitle.swift in Sources */,
 				A31141E426C9EBCB00EBE9FB /* APIEnvironment.swift in Sources */,
 				A31141F926CA1D8600EBE9FB /* UserRequests.swift in Sources */,
 				A3265E3326C9E9070081BB6D /* PostRequest.swift in Sources */,
+				A38C712526CB8F2F00C273F3 /* PhotoCaptureController.swift in Sources */,
+				A38C712B26CB8FD300C273F3 /* ImageRequests.swift in Sources */,
+				A38C711426CB7FF100C273F3 /* CommentCell.swift in Sources */,
 				A3265E3126C9E8480081BB6D /* APIRequest.swift in Sources */,
+				A38C710A26CB5BA000C273F3 /* Colors.swift in Sources */,
 				A31141F726CA1C0500EBE9FB /* UserAuthentication.swift in Sources */,
+				A38C712726CB8F3500C273F3 /* AddDescriptionView.swift in Sources */,
 				A311420026CA4A6500EBE9FB /* JsonData.swift in Sources */,
+				A38C711B26CB89E500C273F3 /* CreatePostView.swift in Sources */,
+				A38C712926CB8F4300C273F3 /* PostController.swift in Sources */,
+				A38C711226CB742D00C273F3 /* FeedCell.swift in Sources */,
+				A38C712126CB8EFA00C273F3 /* CameraPreviewView.swift in Sources */,
 				A3265E0226C9E7B80081BB6D /* PetstagramApp.swift in Sources */,
+				A38C711D26CB8ABE00C273F3 /* UserData.swift in Sources */,
+				A38C712326CB8F0A00C273F3 /* TakePhotoViewController.swift in Sources */,
 				A31141E226C9EAAD00EBE9FB /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +614,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Petstagram/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to take photos of your pets";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -557,6 +646,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Petstagram/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to take photos of your pets";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
