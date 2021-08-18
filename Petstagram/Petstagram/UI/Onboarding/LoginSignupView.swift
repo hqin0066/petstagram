@@ -63,7 +63,7 @@ struct LoginSignupView: View {
           .textContentType(.password)
           .autocapitalization(.none)
       }
-      .textFieldStyle(.roundedBorder)
+      .textFieldStyle(RoundedBorderTextFieldStyle())
       .alert(isPresented: $validationError) {
         if authState == .signUp {
           return Alert(
@@ -140,7 +140,7 @@ struct LoginSignupView: View {
       return
     }
     
-    let client = APIClient(environment: .local81)
+    let client = APIClient()
     let request = SignInUserRequest(username: username, password: password)
     networkOperation = client.publisherForRequest(request)
       .sink(receiveCompletion: { result in
@@ -154,7 +154,7 @@ struct LoginSignupView: View {
       return
     }
     
-    let client = APIClient(environment: .local81)
+    let client = APIClient()
     let request = SignUpUserRequest(username: username, email: email, password: password)
     networkOperation = client.publisherForRequest(request)
       .sink(receiveCompletion: { result in

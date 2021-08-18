@@ -14,23 +14,22 @@
 		A31141EF26CA061600EBE9FB /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141EE26CA061600EBE9FB /* APIClientTests.swift */; };
 		A31141F226CA08CE00EBE9FB /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = A31141F126CA08CE00EBE9FB /* Swifter */; };
 		A31141F526CA192100EBE9FB /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141F426CA192100EBE9FB /* LoginSignupView.swift */; };
-		A31141F726CA1C0500EBE9FB /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141F626CA1C0500EBE9FB /* UserAuthentication.swift */; };
 		A31141F926CA1D8600EBE9FB /* UserRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141F826CA1D8600EBE9FB /* UserRequests.swift */; };
 		A31141FB26CA223900EBE9FB /* CoolStoryregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A31141FA26CA223900EBE9FB /* CoolStoryregular.ttf */; };
 		A31141FD26CA22AA00EBE9FB /* AppTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141FC26CA22AA00EBE9FB /* AppTitle.swift */; };
-		A311420026CA4A6500EBE9FB /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141EA26C9FA9200EBE9FB /* JsonData.swift */; };
 		A3265E0226C9E7B80081BB6D /* PetstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E0126C9E7B80081BB6D /* PetstagramApp.swift */; };
 		A3265E0426C9E7B80081BB6D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E0326C9E7B80081BB6D /* MainView.swift */; };
 		A3265E0626C9E7B90081BB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3265E0526C9E7B90081BB6D /* Assets.xcassets */; };
 		A3265E0926C9E7B90081BB6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3265E0826C9E7B90081BB6D /* Preview Assets.xcassets */; };
 		A3265E1D26C9E7B90081BB6D /* PetstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E1C26C9E7B90081BB6D /* PetstagramUITests.swift */; };
 		A3265E1F26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E1E26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift */; };
-		A3265E2E26C9E7ED0081BB6D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E2D26C9E7ED0081BB6D /* Post.swift */; };
 		A3265E3126C9E8480081BB6D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E3026C9E8480081BB6D /* APIRequest.swift */; };
 		A3265E3326C9E9070081BB6D /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E3226C9E9070081BB6D /* PostRequest.swift */; };
+		A367F42C26CCF62C007A65E9 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367F42926CCF62C007A65E9 /* Feed.swift */; };
+		A367F42D26CCF62C007A65E9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367F42A26CCF62C007A65E9 /* Post.swift */; };
+		A367F42E26CCF62C007A65E9 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367F42B26CCF62C007A65E9 /* UserAuthentication.swift */; };
 		A38C710A26CB5BA000C273F3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710926CB5BA000C273F3 /* Colors.swift */; };
 		A38C710E26CB5C2A00C273F3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710D26CB5C2A00C273F3 /* FeedView.swift */; };
-		A38C711026CB6AB900C273F3 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710F26CB6AB900C273F3 /* Feed.swift */; };
 		A38C711226CB742D00C273F3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711126CB742D00C273F3 /* FeedCell.swift */; };
 		A38C711426CB7FF100C273F3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711326CB7FF100C273F3 /* CommentCell.swift */; };
 		A38C711B26CB89E500C273F3 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711A26CB89E500C273F3 /* CreatePostView.swift */; };
@@ -42,6 +41,7 @@
 		A38C712926CB8F4300C273F3 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712826CB8F4300C273F3 /* PostController.swift */; };
 		A38C712B26CB8FD300C273F3 /* ImageRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712A26CB8FD300C273F3 /* ImageRequests.swift */; };
 		A38C72C526CCB02800C273F3 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C72C426CCB02800C273F3 /* TakePhotoViewController.swift */; };
+		A38C734926CCC6A400C273F3 /* KituraContracts in Frameworks */ = {isa = PBXBuildFile; productRef = A38C734826CCC6A400C273F3 /* KituraContracts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,6 @@
 		A31141EE26CA061600EBE9FB /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 		A31141F326CA14EA00EBE9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31141F426CA192100EBE9FB /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
-		A31141F626CA1C0500EBE9FB /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
 		A31141F826CA1D8600EBE9FB /* UserRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequests.swift; sourceTree = "<group>"; };
 		A31141FA26CA223900EBE9FB /* CoolStoryregular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoolStoryregular.ttf; sourceTree = "<group>"; };
 		A31141FC26CA22AA00EBE9FB /* AppTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitle.swift; sourceTree = "<group>"; };
@@ -83,12 +82,13 @@
 		A3265E1826C9E7B90081BB6D /* PetstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3265E1C26C9E7B90081BB6D /* PetstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramUITests.swift; sourceTree = "<group>"; };
 		A3265E1E26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A3265E2D26C9E7ED0081BB6D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A3265E3026C9E8480081BB6D /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		A3265E3226C9E9070081BB6D /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		A367F42926CCF62C007A65E9 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		A367F42A26CCF62C007A65E9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A367F42B26CCF62C007A65E9 /* UserAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
 		A38C710926CB5BA000C273F3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A38C710D26CB5C2A00C273F3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
-		A38C710F26CB6AB900C273F3 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		A38C711126CB742D00C273F3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A38C711326CB7FF100C273F3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		A38C711A26CB89E500C273F3 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38C734926CCC6A400C273F3 /* KituraContracts in Frameworks */,
 				A31141F226CA08CE00EBE9FB /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +176,7 @@
 			children = (
 				A31141E626C9F85000EBE9FB /* Resources */,
 				A38C710826CB5B8700C273F3 /* Helpers */,
-				A3265E2F26C9E8320081BB6D /* Model */,
+				A367F42026CCF5CF007A65E9 /* Models */,
 				A3265E2C26C9E7E00081BB6D /* Network */,
 				A3265E2B26C9E7D00081BB6D /* UI */,
 			);
@@ -233,14 +234,14 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		A3265E2F26C9E8320081BB6D /* Model */ = {
+		A367F42026CCF5CF007A65E9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A3265E2D26C9E7ED0081BB6D /* Post.swift */,
-				A31141F626CA1C0500EBE9FB /* UserAuthentication.swift */,
-				A38C710F26CB6AB900C273F3 /* Feed.swift */,
+				A367F42926CCF62C007A65E9 /* Feed.swift */,
+				A367F42A26CCF62C007A65E9 /* Post.swift */,
+				A367F42B26CCF62C007A65E9 /* UserAuthentication.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A38C710826CB5B8700C273F3 /* Helpers */ = {
@@ -302,6 +303,7 @@
 			name = Petstagram;
 			packageProductDependencies = (
 				A31141F126CA08CE00EBE9FB /* Swifter */,
+				A38C734826CCC6A400C273F3 /* KituraContracts */,
 			);
 			productName = Petstagram;
 			productReference = A3265DFE26C9E7B80081BB6D /* Petstagram.app */;
@@ -378,6 +380,7 @@
 			mainGroup = A3265DF526C9E7B80081BB6D;
 			packageReferences = (
 				A31141F026CA08CE00EBE9FB /* XCRemoteSwiftPackageReference "swifter" */,
+				A38C734726CCC6A400C273F3 /* XCRemoteSwiftPackageReference "KituraContracts" */,
 			);
 			productRefGroup = A3265DFF26C9E7B80081BB6D /* Products */;
 			projectDirPath = "";
@@ -424,8 +427,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A38C710E26CB5C2A00C273F3 /* FeedView.swift in Sources */,
-				A38C711026CB6AB900C273F3 /* Feed.swift in Sources */,
-				A3265E2E26C9E7ED0081BB6D /* Post.swift in Sources */,
 				A3265E0426C9E7B80081BB6D /* MainView.swift in Sources */,
 				A31141F526CA192100EBE9FB /* LoginSignupView.swift in Sources */,
 				A31141FD26CA22AA00EBE9FB /* AppTitle.swift in Sources */,
@@ -437,12 +438,13 @@
 				A38C711426CB7FF100C273F3 /* CommentCell.swift in Sources */,
 				A3265E3126C9E8480081BB6D /* APIRequest.swift in Sources */,
 				A38C710A26CB5BA000C273F3 /* Colors.swift in Sources */,
-				A31141F726CA1C0500EBE9FB /* UserAuthentication.swift in Sources */,
+				A367F42D26CCF62C007A65E9 /* Post.swift in Sources */,
 				A38C712726CB8F3500C273F3 /* AddDescriptionView.swift in Sources */,
-				A311420026CA4A6500EBE9FB /* JsonData.swift in Sources */,
 				A38C711B26CB89E500C273F3 /* CreatePostView.swift in Sources */,
 				A38C712926CB8F4300C273F3 /* PostController.swift in Sources */,
+				A367F42C26CCF62C007A65E9 /* Feed.swift in Sources */,
 				A38C711226CB742D00C273F3 /* FeedCell.swift in Sources */,
+				A367F42E26CCF62C007A65E9 /* UserAuthentication.swift in Sources */,
 				A38C712126CB8EFA00C273F3 /* CameraPreviewView.swift in Sources */,
 				A3265E0226C9E7B80081BB6D /* PetstagramApp.swift in Sources */,
 				A38C72C526CCB02800C273F3 /* TakePhotoViewController.swift in Sources */,
@@ -618,6 +620,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -650,6 +653,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -817,6 +821,14 @@
 				kind = branch;
 			};
 		};
+		A38C734726CCC6A400C273F3 /* XCRemoteSwiftPackageReference "KituraContracts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-swift/KituraContracts";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -824,6 +836,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A31141F026CA08CE00EBE9FB /* XCRemoteSwiftPackageReference "swifter" */;
 			productName = Swifter;
+		};
+		A38C734826CCC6A400C273F3 /* KituraContracts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38C734726CCC6A400C273F3 /* XCRemoteSwiftPackageReference "KituraContracts" */;
+			productName = KituraContracts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

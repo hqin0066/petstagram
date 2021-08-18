@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import Combine
 
 struct FeedCell: View {
   var post: Post
   
   @State var postImage: UIImage? = nil
+  @State private var subcriptions: Set<AnyCancellable> = []
   
   var body: some View {
     VStack {
@@ -47,6 +49,17 @@ struct FeedCell: View {
           .resizable()
           .scaledToFit()
           .foregroundColor(.accentGreen.opacity(0.2))
+          .onAppear {
+            guard let imageId = self.post.id else { return }
+            let client = APIClient()
+            let request = DownloadImageRequest(imageId: imageId)
+            client.publisherForRequest(request)
+              .replaceError(with: UIImage(systemName: "photo")!)
+              .sink { image in
+                self.postImage = image
+              }
+              .store(in: &subcriptions)
+          }
       }
       
       CommentCell(post: post)

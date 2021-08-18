@@ -6,20 +6,9 @@
 //
 
 import SwiftUI
-import Swifter
 
 @main
 struct PetstagramApp: App {
-  
-  let server: HttpServer = {
-    let server = HttpServer()
-    
-    try? server.start(8081)
-    server.POST["api/v1/user"] = { _ in HttpResponse.ok(.text(JsonData.goodSignUp)) }
-    
-    return server
-  }()
-  
   var body: some Scene {
     WindowGroup {
       MainView()

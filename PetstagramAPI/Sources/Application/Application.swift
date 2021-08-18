@@ -16,6 +16,7 @@ public class App {
   public init() throws {
     // Configure logging
     initializeLogging()
+    Persistence.setUp()
     // Run the metrics initializer
     initializeMetrics(router: router)
   }
@@ -24,6 +25,8 @@ public class App {
     // Endpoints
     initializeHealthRoutes(app: self)
     initializePostRoutes(app: self)
+    initializeUserRoutes(app: self)
+    try initializeImageRoutes(app: self)
   }
   
   public func run() throws {

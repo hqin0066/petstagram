@@ -19,11 +19,12 @@ struct CreatePostView: View {
           showNext = true
         }
         
-        NavigationLink(isActive: $showNext) {
-          Text("")
-        } label: {
-          EmptyView()
-        }
+        NavigationLink(
+          destination: AddDescriptionView(image: postImage),
+          isActive: $showNext,
+          label: {
+            EmptyView()
+          })
       }
     }
   }

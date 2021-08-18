@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import KituraContracts
 
 extension Notification.Name {
   static let signInNotification = Notification.Name("SignInNotification")
@@ -24,7 +25,11 @@ struct SignInUserRequest: APIRequest {
   var method: HTTPMethod { return .GET }
   var path: String { return "/user" }
   var contentType: String { return "application/json" }
+  var additionalHeaders: [String : String] { return [:] }
   var body: Data? { return nil }
+  var params: UserParams? {
+    return UserParams(id: user.id, password: user.password ?? "")
+  }
   
   func handle(response: Data) throws -> Void {
     currentUser = user
@@ -44,9 +49,11 @@ struct SignUpUserRequest: APIRequest {
   var method: HTTPMethod { return .POST }
   var path: String { return "/user" }
   var contentType: String { return "application/json" }
+  var additionalHeaders: [String : String] { return [:] }
   var body: Data? {
     return try? JSONEncoder().encode(user)
   }
+  var params: EmptyParams? { return nil }
   
   func handle(response: Data) throws -> Void {
     currentUser = user
