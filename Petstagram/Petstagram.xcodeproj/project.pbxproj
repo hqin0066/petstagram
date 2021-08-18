@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31141E226C9EAAD00EBE9FB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141E126C9EAAD00EBE9FB /* APIClient.swift */; };
+		A31141E426C9EBCB00EBE9FB /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141E326C9EBCB00EBE9FB /* APIEnvironment.swift */; };
+		A31141E926C9F99600EBE9FB /* PostRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141E826C9F99600EBE9FB /* PostRequestTests.swift */; };
+		A31141EB26C9FA9200EBE9FB /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141EA26C9FA9200EBE9FB /* JsonData.swift */; };
+		A31141EF26CA061600EBE9FB /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141EE26CA061600EBE9FB /* APIClientTests.swift */; };
+		A31141F226CA08CE00EBE9FB /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = A31141F126CA08CE00EBE9FB /* Swifter */; };
+		A31141F526CA192100EBE9FB /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141F426CA192100EBE9FB /* LoginSignupView.swift */; };
+		A31141F726CA1C0500EBE9FB /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141F626CA1C0500EBE9FB /* UserAuthentication.swift */; };
+		A31141F926CA1D8600EBE9FB /* UserRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141F826CA1D8600EBE9FB /* UserRequests.swift */; };
+		A31141FB26CA223900EBE9FB /* CoolStoryregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A31141FA26CA223900EBE9FB /* CoolStoryregular.ttf */; };
+		A31141FD26CA22AA00EBE9FB /* AppTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141FC26CA22AA00EBE9FB /* AppTitle.swift */; };
+		A311420026CA4A6500EBE9FB /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31141EA26C9FA9200EBE9FB /* JsonData.swift */; };
+		A3265E0226C9E7B80081BB6D /* PetstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E0126C9E7B80081BB6D /* PetstagramApp.swift */; };
+		A3265E0426C9E7B80081BB6D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E0326C9E7B80081BB6D /* MainView.swift */; };
+		A3265E0626C9E7B90081BB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3265E0526C9E7B90081BB6D /* Assets.xcassets */; };
+		A3265E0926C9E7B90081BB6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3265E0826C9E7B90081BB6D /* Preview Assets.xcassets */; };
+		A3265E1D26C9E7B90081BB6D /* PetstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E1C26C9E7B90081BB6D /* PetstagramUITests.swift */; };
+		A3265E1F26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E1E26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift */; };
+		A3265E2E26C9E7ED0081BB6D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E2D26C9E7ED0081BB6D /* Post.swift */; };
+		A3265E3126C9E8480081BB6D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E3026C9E8480081BB6D /* APIRequest.swift */; };
+		A3265E3326C9E9070081BB6D /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3265E3226C9E9070081BB6D /* PostRequest.swift */; };
+		A38C710A26CB5BA000C273F3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710926CB5BA000C273F3 /* Colors.swift */; };
+		A38C710E26CB5C2A00C273F3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710D26CB5C2A00C273F3 /* FeedView.swift */; };
+		A38C711026CB6AB900C273F3 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C710F26CB6AB900C273F3 /* Feed.swift */; };
+		A38C711226CB742D00C273F3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711126CB742D00C273F3 /* FeedCell.swift */; };
+		A38C711426CB7FF100C273F3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711326CB7FF100C273F3 /* CommentCell.swift */; };
+		A38C711B26CB89E500C273F3 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711A26CB89E500C273F3 /* CreatePostView.swift */; };
+		A38C711D26CB8ABE00C273F3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C711C26CB8ABE00C273F3 /* UserData.swift */; };
+		A38C711F26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38C711E26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard */; };
+		A38C712126CB8EFA00C273F3 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712026CB8EFA00C273F3 /* CameraPreviewView.swift */; };
+		A38C712526CB8F2F00C273F3 /* PhotoCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712426CB8F2F00C273F3 /* PhotoCaptureController.swift */; };
+		A38C712726CB8F3500C273F3 /* AddDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712626CB8F3500C273F3 /* AddDescriptionView.swift */; };
+		A38C712926CB8F4300C273F3 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712826CB8F4300C273F3 /* PostController.swift */; };
+		A38C712B26CB8FD300C273F3 /* ImageRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C712A26CB8FD300C273F3 /* ImageRequests.swift */; };
+		A38C72C526CCB02800C273F3 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C72C426CCB02800C273F3 /* TakePhotoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3265E0F26C9E7B90081BB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3265DF626C9E7B80081BB6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3265DFD26C9E7B80081BB6D;
+			remoteInfo = Petstagram;
+		};
+		A3265E1926C9E7B90081BB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3265DF626C9E7B80081BB6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3265DFD26C9E7B80081BB6D;
+			remoteInfo = Petstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A31141E126C9EAAD00EBE9FB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A31141E326C9EBCB00EBE9FB /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		A31141E726C9F99500EBE9FB /* PetstagramTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetstagramTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A31141E826C9F99600EBE9FB /* PostRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequestTests.swift; sourceTree = "<group>"; };
+		A31141EA26C9FA9200EBE9FB /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		A31141EE26CA061600EBE9FB /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		A31141F326CA14EA00EBE9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31141F426CA192100EBE9FB /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
+		A31141F626CA1C0500EBE9FB /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
+		A31141F826CA1D8600EBE9FB /* UserRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequests.swift; sourceTree = "<group>"; };
+		A31141FA26CA223900EBE9FB /* CoolStoryregular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoolStoryregular.ttf; sourceTree = "<group>"; };
+		A31141FC26CA22AA00EBE9FB /* AppTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitle.swift; sourceTree = "<group>"; };
+		A3265DFE26C9E7B80081BB6D /* Petstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3265E0126C9E7B80081BB6D /* PetstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramApp.swift; sourceTree = "<group>"; };
+		A3265E0326C9E7B80081BB6D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A3265E0526C9E7B90081BB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3265E0826C9E7B90081BB6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3265E0E26C9E7B90081BB6D /* PetstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3265E1826C9E7B90081BB6D /* PetstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3265E1C26C9E7B90081BB6D /* PetstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramUITests.swift; sourceTree = "<group>"; };
+		A3265E1E26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3265E2D26C9E7ED0081BB6D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A3265E3026C9E8480081BB6D /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		A3265E3226C9E9070081BB6D /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		A38C710926CB5BA000C273F3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A38C710D26CB5C2A00C273F3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A38C710F26CB6AB900C273F3 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		A38C711126CB742D00C273F3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		A38C711326CB7FF100C273F3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		A38C711A26CB89E500C273F3 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		A38C711C26CB8ABE00C273F3 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A38C711E26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TakePhotoStoryboard.storyboard; sourceTree = "<group>"; };
+		A38C712026CB8EFA00C273F3 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		A38C712426CB8F2F00C273F3 /* PhotoCaptureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureController.swift; sourceTree = "<group>"; };
+		A38C712626CB8F3500C273F3 /* AddDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDescriptionView.swift; sourceTree = "<group>"; };
+		A38C712826CB8F4300C273F3 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		A38C712A26CB8FD300C273F3 /* ImageRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRequests.swift; sourceTree = "<group>"; };
+		A38C72C426CCB02800C273F3 /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3265DFB26C9E7B80081BB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31141F226CA08CE00EBE9FB /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3265E0B26C9E7B90081BB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3265E1526C9E7B90081BB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A31141E526C9F83700EBE9FB /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				A38C712A26CB8FD300C273F3 /* ImageRequests.swift */,
+				A3265E3226C9E9070081BB6D /* PostRequest.swift */,
+				A31141F826CA1D8600EBE9FB /* UserRequests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		A31141E626C9F85000EBE9FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A31141F326CA14EA00EBE9FB /* Info.plist */,
+				A3265E0526C9E7B90081BB6D /* Assets.xcassets */,
+				A3265E0126C9E7B80081BB6D /* PetstagramApp.swift */,
+				A31141FA26CA223900EBE9FB /* CoolStoryregular.ttf */,
+				A3265E0726C9E7B90081BB6D /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A3265DF526C9E7B80081BB6D = {
+			isa = PBXGroup;
+			children = (
+				A3265E0026C9E7B80081BB6D /* Petstagram */,
+				A3265E1126C9E7B90081BB6D /* PetstagramTests */,
+				A3265E1B26C9E7B90081BB6D /* PetstagramUITests */,
+				A3265DFF26C9E7B80081BB6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3265DFF26C9E7B80081BB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3265DFE26C9E7B80081BB6D /* Petstagram.app */,
+				A3265E0E26C9E7B90081BB6D /* PetstagramTests.xctest */,
+				A3265E1826C9E7B90081BB6D /* PetstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3265E0026C9E7B80081BB6D /* Petstagram */ = {
+			isa = PBXGroup;
+			children = (
+				A31141E626C9F85000EBE9FB /* Resources */,
+				A38C710826CB5B8700C273F3 /* Helpers */,
+				A3265E2F26C9E8320081BB6D /* Model */,
+				A3265E2C26C9E7E00081BB6D /* Network */,
+				A3265E2B26C9E7D00081BB6D /* UI */,
+			);
+			path = Petstagram;
+			sourceTree = "<group>";
+		};
+		A3265E0726C9E7B90081BB6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3265E0826C9E7B90081BB6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3265E1126C9E7B90081BB6D /* PetstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				A31141E826C9F99600EBE9FB /* PostRequestTests.swift */,
+				A31141E726C9F99500EBE9FB /* PetstagramTests-Bridging-Header.h */,
+				A31141EA26C9FA9200EBE9FB /* JsonData.swift */,
+				A31141EE26CA061600EBE9FB /* APIClientTests.swift */,
+			);
+			path = PetstagramTests;
+			sourceTree = "<group>";
+		};
+		A3265E1B26C9E7B90081BB6D /* PetstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3265E1C26C9E7B90081BB6D /* PetstagramUITests.swift */,
+				A3265E1E26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift */,
+			);
+			path = PetstagramUITests;
+			sourceTree = "<group>";
+		};
+		A3265E2B26C9E7D00081BB6D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A3265E0326C9E7B80081BB6D /* MainView.swift */,
+				A38C711C26CB8ABE00C273F3 /* UserData.swift */,
+				A38C711526CB83A100C273F3 /* Post */,
+				A38C710C26CB5C2200C273F3 /* Feed */,
+				A38C710B26CB5C1000C273F3 /* Onboarding */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A3265E2C26C9E7E00081BB6D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A31141E526C9F83700EBE9FB /* Requests */,
+				A3265E3026C9E8480081BB6D /* APIRequest.swift */,
+				A31141E126C9EAAD00EBE9FB /* APIClient.swift */,
+				A31141E326C9EBCB00EBE9FB /* APIEnvironment.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A3265E2F26C9E8320081BB6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3265E2D26C9E7ED0081BB6D /* Post.swift */,
+				A31141F626CA1C0500EBE9FB /* UserAuthentication.swift */,
+				A38C710F26CB6AB900C273F3 /* Feed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A38C710826CB5B8700C273F3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A38C710926CB5BA000C273F3 /* Colors.swift */,
+				A31141FC26CA22AA00EBE9FB /* AppTitle.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A38C710B26CB5C1000C273F3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A31141F426CA192100EBE9FB /* LoginSignupView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A38C710C26CB5C2200C273F3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A38C710D26CB5C2A00C273F3 /* FeedView.swift */,
+				A38C711126CB742D00C273F3 /* FeedCell.swift */,
+				A38C711326CB7FF100C273F3 /* CommentCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A38C711526CB83A100C273F3 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				A38C712826CB8F4300C273F3 /* PostController.swift */,
+				A38C712626CB8F3500C273F3 /* AddDescriptionView.swift */,
+				A38C712426CB8F2F00C273F3 /* PhotoCaptureController.swift */,
+				A38C72C426CCB02800C273F3 /* TakePhotoViewController.swift */,
+				A38C712026CB8EFA00C273F3 /* CameraPreviewView.swift */,
+				A38C711E26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard */,
+				A38C711A26CB89E500C273F3 /* CreatePostView.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3265DFD26C9E7B80081BB6D /* Petstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3265E2226C9E7B90081BB6D /* Build configuration list for PBXNativeTarget "Petstagram" */;
+			buildPhases = (
+				A3265DFA26C9E7B80081BB6D /* Sources */,
+				A3265DFB26C9E7B80081BB6D /* Frameworks */,
+				A3265DFC26C9E7B80081BB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petstagram;
+			packageProductDependencies = (
+				A31141F126CA08CE00EBE9FB /* Swifter */,
+			);
+			productName = Petstagram;
+			productReference = A3265DFE26C9E7B80081BB6D /* Petstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3265E0D26C9E7B90081BB6D /* PetstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3265E2526C9E7B90081BB6D /* Build configuration list for PBXNativeTarget "PetstagramTests" */;
+			buildPhases = (
+				A3265E0A26C9E7B90081BB6D /* Sources */,
+				A3265E0B26C9E7B90081BB6D /* Frameworks */,
+				A3265E0C26C9E7B90081BB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3265E1026C9E7B90081BB6D /* PBXTargetDependency */,
+			);
+			name = PetstagramTests;
+			productName = PetstagramTests;
+			productReference = A3265E0E26C9E7B90081BB6D /* PetstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3265E1726C9E7B90081BB6D /* PetstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3265E2826C9E7B90081BB6D /* Build configuration list for PBXNativeTarget "PetstagramUITests" */;
+			buildPhases = (
+				A3265E1426C9E7B90081BB6D /* Sources */,
+				A3265E1526C9E7B90081BB6D /* Frameworks */,
+				A3265E1626C9E7B90081BB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3265E1A26C9E7B90081BB6D /* PBXTargetDependency */,
+			);
+			name = PetstagramUITests;
+			productName = PetstagramUITests;
+			productReference = A3265E1826C9E7B90081BB6D /* PetstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3265DF626C9E7B80081BB6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A3265DFD26C9E7B80081BB6D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A3265E0D26C9E7B90081BB6D = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+						TestTargetID = A3265DFD26C9E7B80081BB6D;
+					};
+					A3265E1726C9E7B90081BB6D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A3265DFD26C9E7B80081BB6D;
+					};
+				};
+			};
+			buildConfigurationList = A3265DF926C9E7B80081BB6D /* Build configuration list for PBXProject "Petstagram" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3265DF526C9E7B80081BB6D;
+			packageReferences = (
+				A31141F026CA08CE00EBE9FB /* XCRemoteSwiftPackageReference "swifter" */,
+			);
+			productRefGroup = A3265DFF26C9E7B80081BB6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3265DFD26C9E7B80081BB6D /* Petstagram */,
+				A3265E0D26C9E7B90081BB6D /* PetstagramTests */,
+				A3265E1726C9E7B90081BB6D /* PetstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3265DFC26C9E7B80081BB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31141FB26CA223900EBE9FB /* CoolStoryregular.ttf in Resources */,
+				A38C711F26CB8ED700C273F3 /* TakePhotoStoryboard.storyboard in Resources */,
+				A3265E0926C9E7B90081BB6D /* Preview Assets.xcassets in Resources */,
+				A3265E0626C9E7B90081BB6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3265E0C26C9E7B90081BB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3265E1626C9E7B90081BB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3265DFA26C9E7B80081BB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38C710E26CB5C2A00C273F3 /* FeedView.swift in Sources */,
+				A38C711026CB6AB900C273F3 /* Feed.swift in Sources */,
+				A3265E2E26C9E7ED0081BB6D /* Post.swift in Sources */,
+				A3265E0426C9E7B80081BB6D /* MainView.swift in Sources */,
+				A31141F526CA192100EBE9FB /* LoginSignupView.swift in Sources */,
+				A31141FD26CA22AA00EBE9FB /* AppTitle.swift in Sources */,
+				A31141E426C9EBCB00EBE9FB /* APIEnvironment.swift in Sources */,
+				A31141F926CA1D8600EBE9FB /* UserRequests.swift in Sources */,
+				A3265E3326C9E9070081BB6D /* PostRequest.swift in Sources */,
+				A38C712526CB8F2F00C273F3 /* PhotoCaptureController.swift in Sources */,
+				A38C712B26CB8FD300C273F3 /* ImageRequests.swift in Sources */,
+				A38C711426CB7FF100C273F3 /* CommentCell.swift in Sources */,
+				A3265E3126C9E8480081BB6D /* APIRequest.swift in Sources */,
+				A38C710A26CB5BA000C273F3 /* Colors.swift in Sources */,
+				A31141F726CA1C0500EBE9FB /* UserAuthentication.swift in Sources */,
+				A38C712726CB8F3500C273F3 /* AddDescriptionView.swift in Sources */,
+				A311420026CA4A6500EBE9FB /* JsonData.swift in Sources */,
+				A38C711B26CB89E500C273F3 /* CreatePostView.swift in Sources */,
+				A38C712926CB8F4300C273F3 /* PostController.swift in Sources */,
+				A38C711226CB742D00C273F3 /* FeedCell.swift in Sources */,
+				A38C712126CB8EFA00C273F3 /* CameraPreviewView.swift in Sources */,
+				A3265E0226C9E7B80081BB6D /* PetstagramApp.swift in Sources */,
+				A38C72C526CCB02800C273F3 /* TakePhotoViewController.swift in Sources */,
+				A38C711D26CB8ABE00C273F3 /* UserData.swift in Sources */,
+				A31141E226C9EAAD00EBE9FB /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3265E0A26C9E7B90081BB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31141EF26CA061600EBE9FB /* APIClientTests.swift in Sources */,
+				A31141E926C9F99600EBE9FB /* PostRequestTests.swift in Sources */,
+				A31141EB26C9FA9200EBE9FB /* JsonData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3265E1426C9E7B90081BB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3265E1F26C9E7B90081BB6D /* PetstagramUITestsLaunchTests.swift in Sources */,
+				A3265E1D26C9E7B90081BB6D /* PetstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3265E1026C9E7B90081BB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3265DFD26C9E7B80081BB6D /* Petstagram */;
+			targetProxy = A3265E0F26C9E7B90081BB6D /* PBXContainerItemProxy */;
+		};
+		A3265E1A26C9E7B90081BB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3265DFD26C9E7B80081BB6D /* Petstagram */;
+			targetProxy = A3265E1926C9E7B90081BB6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3265E2026C9E7B90081BB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3265E2126C9E7B90081BB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3265E2326C9E7B90081BB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Petstagram/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Petstagram/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to take photos of your pets";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.Petstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3265E2426C9E7B90081BB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Petstagram/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Petstagram/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to take photos of your pets";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.Petstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3265E2626C9E7B90081BB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PetstagramTests/PetstagramTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petstagram.app/Petstagram";
+			};
+			name = Debug;
+		};
+		A3265E2726C9E7B90081BB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PetstagramTests/PetstagramTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petstagram.app/Petstagram";
+			};
+			name = Release;
+		};
+		A3265E2926C9E7B90081BB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Petstagram;
+			};
+			name = Debug;
+		};
+		A3265E2A26C9E7B90081BB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Petstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3265DF926C9E7B80081BB6D /* Build configuration list for PBXProject "Petstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3265E2026C9E7B90081BB6D /* Debug */,
+				A3265E2126C9E7B90081BB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3265E2226C9E7B90081BB6D /* Build configuration list for PBXNativeTarget "Petstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3265E2326C9E7B90081BB6D /* Debug */,
+				A3265E2426C9E7B90081BB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3265E2526C9E7B90081BB6D /* Build configuration list for PBXNativeTarget "PetstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3265E2626C9E7B90081BB6D /* Debug */,
+				A3265E2726C9E7B90081BB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3265E2826C9E7B90081BB6D /* Build configuration list for PBXNativeTarget "PetstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3265E2926C9E7B90081BB6D /* Debug */,
+				A3265E2A26C9E7B90081BB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A31141F026CA08CE00EBE9FB /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				branch = stable;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A31141F126CA08CE00EBE9FB /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A31141F026CA08CE00EBE9FB /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A3265DF626C9E7B80081BB6D /* Project object */;
+}

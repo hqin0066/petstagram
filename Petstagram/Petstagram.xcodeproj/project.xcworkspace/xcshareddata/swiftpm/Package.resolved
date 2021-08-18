@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Swifter",
+        "repositoryURL": "https://github.com/httpswift/swifter.git",
+        "state": {
+          "branch": "stable",
+          "revision": "718f82c26aa2ba558345d14e0730aba1266a1130",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

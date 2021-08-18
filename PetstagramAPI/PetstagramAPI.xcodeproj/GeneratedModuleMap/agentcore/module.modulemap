@@ -1,0 +1,4 @@
+module agentcore {
+    umbrella "/Users/hqin/Documents/iOS Programming/Raywenderlich Courses/Apps/petstagram/PetstagramAPI/.build/checkouts/omr-agentcore/src/agentcore/include"
+    export *
+}
