@@ -45,6 +45,11 @@ struct APIClient {
     request.additionalHeaders.forEach { key, value in
       urlRequest.addValue(value, forHTTPHeaderField: key)
     }
+    if let user = currentUser?.id, let password = currentUser?.password {
+      let auth = "\(user): \(password)"
+      let authString = auth.data(using: .utf8)!.base64EncodedString()
+      urlRequest.setValue("Basic \(authString)", forHTTPHeaderField: "Authorization")
+    }
     urlRequest.httpMethod = request.method.rawValue
     urlRequest.httpBody = request.body
     

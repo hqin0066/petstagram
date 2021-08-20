@@ -7,8 +7,11 @@
 
 import Foundation
 import Kitura
+import Credentials
+import CredentialsHTTP
 
 func initializeImageRoutes(app: App) throws {
+  initializeBasicAuth(app: app)
   let fileServer = try setUpFileServer()
   app.router.get("/api/v1/images", middleware: fileServer)
   app.router.post("/api/v1/image") { request, reponse, next in
@@ -37,6 +40,23 @@ func initializeImageRoutes(app: App) throws {
       return
     }
   }
+}
+
+func initializeBasicAuth(app: App) {
+  let credentials = Credentials()
+  let basicCredentials = CredentialsHTTPBasic { username, password, credentialsCallback in
+    UserAuthentication.verifyPassword(username: username, password: password) { user in
+      if user != nil {
+        let profile = UserProfile(id: username, displayName: username, provider: "HTTPBasic")
+        credentialsCallback(profile)
+      } else {
+        credentialsCallback(nil)
+      }
+    }
+  }
+  credentials.register(plugin: basicCredentials)
+  app.router.all("api/v1/images", middleware: credentials)
+  app.router.post("api/v1/image", middleware: credentials)
 }
 
 private func setUpFileServer() throws -> StaticFileServer {
